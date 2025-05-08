@@ -11,17 +11,6 @@ APPROVED_BREEDS = [
     "Pointer"
 ]
 
-APPROVED_BREEDS = [
-    "Mastiff",
-    "Chihuahua",
-    "Corgi",
-    "Shar Pei",
-    "Beagle",
-    "French Bulldog",
-    "Pug",
-    "Pointer"
-]
-
 class Dog:
     def __init__(self, name="Fido", breed="Beagle"):
         self.name = name    # Validated by setter
